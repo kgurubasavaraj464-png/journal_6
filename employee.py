@@ -1,7 +1,7 @@
 import sys
 
 def employee_details(name, employee_id, department, salary):
-    return f"name: {name}\nEmployee ID: {employee_id}\nDepartment: {department}\nEmployee: {salary}"
+    return f"name: {name}\nEmployee ID: {employee_id}\nDepartment: {department}\nsalary: {salary}"
 
 if __name__ == "__main__":
     name = sys.argv[1]
